@@ -2,9 +2,9 @@ organization := "me.shadaj"
 
 name := "scalapy"
 
-version := "0.1.0-SNAPSHOT"
+version := "0.1.0-yields"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.11.12"
 
 sourceGenerators in Compile <+= baseDirectory map { dir =>
   val fileToWrite = dir / "src" / "gen" / "scala" / "me/shadaj/scalapy/py" / "ObjectTupleReaders.scala"
